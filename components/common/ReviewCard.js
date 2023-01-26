@@ -12,7 +12,7 @@ const ReviewCard = ({ image, description, name }) => {
         />
         <h6 className='font-semibold text-base'>{name}</h6>
       </div>
-      <div className='mt-5 ml-4 flex text-[#FFCC00]'>
+      <div className='mt-5 ml-4 flex'>
         <ReactStars
           count={5}
           value={4.5897}

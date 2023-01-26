@@ -8,9 +8,9 @@ const ReviewSection = () => {
         Recent Review
       </h2>
       <div className='mt-10 absolute top-16 flex mx-[91px] z-10 gap-x-10'>
-        {reviews.map(review => (
+        {reviews.map((review, index) => (
           <ReviewCard
-            key={review.name}
+            key={index}
             name={review.name}
             description={review.description}
             image={review.image}
@@ -23,6 +23,7 @@ const ReviewSection = () => {
           src='/images/y-k-qZ3hE0-BOWw-unsplash.jpg'
           height={603}
           width={1444}
+          alt='photo'
           className='w-full h-full object-cover absolute inset-0 brightness-[30%]'
         />
         <div className='absolute bottom-32 left-[25%]'>

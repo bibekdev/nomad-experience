@@ -19,10 +19,11 @@ const ImageGallerySection = () => {
         <div className='flex flex-col gap-y-5'>
           <div className='w-[363px] h-[202px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/central-asia.jpg'
               width={363}
               height={202}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               Central Asia
@@ -30,10 +31,11 @@ const ImageGallerySection = () => {
           </div>
           <div className='w-[363px] h-[202px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/north-europe.jpg'
               width={363}
               height={202}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               North Europe
@@ -41,10 +43,11 @@ const ImageGallerySection = () => {
           </div>
           <div className='w-[363px] h-[202px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/sahel.jpg'
               width={363}
               height={202}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               The Sahel
@@ -54,10 +57,11 @@ const ImageGallerySection = () => {
         <div className='flex flex-col gap-y-6'>
           <div className='w-[490px] h-[312px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/south-east-asia.jpg'
               width={490}
               height={312}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               South East Asia
@@ -65,10 +69,11 @@ const ImageGallerySection = () => {
           </div>
           <div className='w-[490px] h-[312px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/sahara.jpg'
               width={490}
               height={312}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               North Africa & The Sahara
@@ -78,10 +83,11 @@ const ImageGallerySection = () => {
         <div className='flex flex-col gap-y-5'>
           <div className='w-[363px] h-[202px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/middle-east.jpg'
               width={363}
               height={202}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               The Middle East
@@ -89,10 +95,11 @@ const ImageGallerySection = () => {
           </div>
           <div className='w-[363px] h-[202px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/south-europe.jpg'
               width={363}
               height={202}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               South Europe
@@ -100,10 +107,11 @@ const ImageGallerySection = () => {
           </div>
           <div className='w-[363px] h-[202px] rounded-md overflow-hidden relative drop-shadow-lg'>
             <Image
-              src='/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg'
+              src='/images/turkey.jpg'
               width={363}
               height={202}
-              className='w-full h-full absolute inset-0'
+              className='w-full h-full absolute inset-0 brightness-90'
+              alt='photo'
             />
             <p className='absolute text-sm bottom-3 left-5 text-white'>
               Turkey

@@ -20,11 +20,14 @@ const GuideSection = () => {
       </div>
       <div className='grow flex justify-between'>
         {guides.map(guide => (
-          <div className='w-[254px] h-[361px] rounded-md shadow-xl shadow-gray-200 relative'>
+          <div
+            key={guide.name}
+            className='w-[254px] h-[361px] rounded-md shadow-xl shadow-gray-200 relative'>
             <Image
               src={guide.image}
               width={254}
               height={361}
+              alt='photo'
               className='absolute inset-0 w-full h-full rounded-md'
             />
             <div className='w-[210px] h-[72px] bg-white rounded-md absolute -bottom-8 left-6 shadow-xl shadow-gray-200'>

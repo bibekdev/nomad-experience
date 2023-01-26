@@ -14,6 +14,7 @@ const LatestBlogSection = () => {
               width={608}
               height={341}
               className='w-full h-full object-cover'
+              alt='photo'
             />
           </div>
           <h4 className='font-bold text-xl mt-8 mb-4'>
@@ -40,6 +41,7 @@ const LatestBlogSection = () => {
                 width={220}
                 height={180}
                 className='w-full h-full object-cover'
+                alt='photo'
               />
             </div>
             <div className='w-[350px]'>
@@ -63,6 +65,7 @@ const LatestBlogSection = () => {
                 width={220}
                 height={180}
                 className='w-full h-full object-cover'
+                alt='photo'
               />
             </div>
             <div className='w-[350px]'>
@@ -86,6 +89,7 @@ const LatestBlogSection = () => {
                 width={220}
                 height={180}
                 className='w-full h-full object-cover'
+                alt='photo'
               />
             </div>
             <div className='w-[350px]'>

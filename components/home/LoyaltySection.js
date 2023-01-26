@@ -30,6 +30,7 @@ const LoyaltySection = () => {
               width={500}
               height={500}
               className='w-full'
+              alt='photo'
             />
           </div>
           <div className='flex flex-col justify-center'>
@@ -54,6 +55,7 @@ const LoyaltySection = () => {
               width={500}
               height={500}
               className='w-full'
+              alt='photo'
             />
           </div>
           <div className='flex flex-col justify-center'>
@@ -77,6 +79,7 @@ const LoyaltySection = () => {
               width={500}
               height={500}
               className='w-full'
+              alt='photo'
             />
           </div>
           <div className='flex flex-col justify-center'>
