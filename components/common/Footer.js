@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const Footer = () => {
   return (
     <div className='bg-[#101010] h-[408px] w-full text-white'>
@@ -40,12 +42,18 @@ const Footer = () => {
         <div className='w-[350px] mr-[55px]'>
           <h4 className='text-xl font-bold text-primary mb-[18px]'>Gallery</h4>
           <div className='grid grid-cols-3 grid-rows-2 gap-2.5'>
-            <div className="bg-[url('../assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg')] w-[110px] h-[70px] bg-cover bg-center rounded-md"></div>
-            <div className="bg-[url('../assets/images/yannis-h-uaPaEM7MiQQ-unsplash.jpg')] w-[110px] h-[70px] bg-cover bg-center rounded-md"></div>
-            <div className="bg-[url('../assets/images/peter-conlan-LEgwEaBVGMo-unsplash.jpg')] w-[110px] h-[70px] bg-cover bg-center rounded-md"></div>
-            <div className="bg-[url('../assets/images/biegun-wschodni-vD3L-rN_qNw-unsplash.jpg')] w-[110px] h-[70px] bg-cover bg-center rounded-md"></div>
-            <div className="bg-[url('../assets/images/nathan-dumlao-4hjgcuADlL8-unsplash.jpg')] w-[110px] h-[70px] bg-cover bg-center rounded-md"></div>
-            <div className="bg-[url('../assets/images/atarin-michaeli-xsXOjEFeDr8-unsplash.jpg')] w-[110px] h-[70px] bg-cover bg-center rounded-md"></div>
+            {galleries.map(gallery => (
+              <div
+                key={gallery.id}
+                className='w-[110px] h-[70px] rounded-md overflow-hidden'>
+                <Image
+                  src={`/images/${gallery.image}`}
+                  width={110}
+                  height={70}
+                  className='w-full h-full object-cover'
+                />
+              </div>
+            ))}
           </div>
         </div>
         <div className='mr-[65px]'>
@@ -99,5 +107,32 @@ const Footer = () => {
     </div>
   )
 }
+
+const galleries = [
+  {
+    id: '1',
+    image: 'y-k-qZ3hE0-BOWw-unsplash.jpg',
+  },
+  {
+    id: '2',
+    image: 'adele-payman-2oYMwuFgnTg-unsplash.jpg',
+  },
+  {
+    id: '3',
+    image: 'peter-conlan-LEgwEaBVGMo-unsplash.jpg',
+  },
+  {
+    id: '4',
+    image: 'biegun-wschodni-vD3L-rN_qNw-unsplash.jpg',
+  },
+  {
+    id: '5',
+    image: 'nathan-dumlao-4hjgcuADlL8-unsplash.jpg',
+  },
+  {
+    id: '6',
+    image: 'atarin-michaeli-xsXOjEFeDr8-unsplash.jpg',
+  },
+]
 
 export default Footer
