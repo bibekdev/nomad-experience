@@ -9,7 +9,7 @@ const Navbar = () => {
         <h1 className='brand font-bold text-[34px] leading-[45px]'>
           The Nomad Experience
         </h1>
-        <nav>
+        <nav className='-mr-[30px]'>
           <ul className='flex gap-x-10 text-base'>
             {links.map(link => (
               <li key={link.name}>
