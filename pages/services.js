@@ -43,7 +43,7 @@ const Services = () => {
         <Heading>Central Asia</Heading>
         <Slider {...settings} className=' mx-[91px] w-auto mt-10'>
           {contents.map(content => (
-            <ProductCard content={content} />
+            <ProductCard key={content.id} content={content} />
           ))}
         </Slider>
       </div>
@@ -52,7 +52,7 @@ const Services = () => {
         <Heading>South East Asia</Heading>
         <Slider {...settings} className='mx-[91px] w-auto mt-10'>
           {contents.map(content => (
-            <ProductCard content={content} />
+            <ProductCard key={content.id} content={content} />
           ))}
         </Slider>
       </div>
@@ -61,7 +61,7 @@ const Services = () => {
         <Heading>Middle East</Heading>
         <Slider {...settings} className='mx-[91px] w-auto mt-10'>
           {contents.map(content => (
-            <ProductCard content={content} />
+            <ProductCard key={content.id} content={content} />
           ))}
         </Slider>
       </div>
@@ -70,7 +70,7 @@ const Services = () => {
         <Heading>North Europe</Heading>
         <Slider {...settings} className='mx-[91px] w-auto mt-10'>
           {contents.map(content => (
-            <ProductCard content={content} />
+            <ProductCard key={content.id} content={content} />
           ))}
         </Slider>
       </div>
