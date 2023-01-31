@@ -1,15 +1,8 @@
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import '@/styles/globals.css'
-import { Poppins } from '@next/font/google'
-
-// const poppins = Poppins({
-//   subsets: ['latin'],
-//   weight: ['100', '200', '300', '400', '500', '600', '700'],
-// })
+import '@/styles/service.css'
 
 export default function App({ Component, pageProps }) {
-  return (
-    // <main className={`${poppins.className} overflow-x-hidden`}>
-    <Component {...pageProps} />
-    // </main>
-  )
+  return <Component {...pageProps} />
 }
