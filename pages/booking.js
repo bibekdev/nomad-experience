@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact</title>
+        <title>Booking</title>
       </Head>
       <div className='ml-[91px] mt-[41px] w-[85%] text-black'>
         <Navbar />
@@ -77,4 +77,5 @@ const Contact = () => {
     </>
   )
 }
+
 export default Contact

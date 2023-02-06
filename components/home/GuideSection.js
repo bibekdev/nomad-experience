@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 const GuideSection = () => {
+  const { push } = useRouter()
   return (
     <div className='mx-[91px] flex mt-20'>
       <div className='mr-[123px]'>
@@ -14,7 +16,9 @@ const GuideSection = () => {
           Some will be independent local guides from among local nomads and
           their neighbours.
         </p>
-        <button className='mt-5 w-[136px] h-[45px] text-center bg-primary rounded-md text-white text-base'>
+        <button
+          onClick={() => push('/guides')}
+          className='mt-5 w-[136px] h-[45px] text-center bg-primary rounded-md text-white text-base'>
           View all
         </button>
       </div>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.9",
     "@next/font": "13.1.5",
     "next": "13.1.5",
     "prop-types": "^15.8.1",
@@ -16,6 +17,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "react-paginate": "^8.1.4",
+    "react-responsive-masonry": "^2.1.7",
     "react-slick": "^0.29.0",
     "react-stars": "^2.2.5",
     "slick-carousel": "^1.8.1"

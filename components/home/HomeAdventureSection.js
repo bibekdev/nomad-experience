@@ -1,7 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 const HomeAdventureSection = () => {
+  const { push } = useRouter()
   return (
     <div className='h-[432px] w-full relative text-white mt-20'>
       <Image
@@ -17,7 +19,9 @@ const HomeAdventureSection = () => {
           Yours Perfect Explore Destinations
         </h2>
         <p className='text-lg leading-[27px]'>Activities & Accommodations</p>
-        <button className='text-[15px] leading-6 rounded px-6 mt-4 text-center bg-primary py-3'>
+        <button
+          onClick={() => push('/services')}
+          className='text-[15px] leading-6 rounded px-6 mt-4 text-center bg-primary py-3'>
           Learn More
         </button>
       </div>

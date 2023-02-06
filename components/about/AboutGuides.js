@@ -1,8 +1,10 @@
 import React from 'react'
 import Heading from '../common/Heading'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 const AboutGuides = () => {
+  const { push } = useRouter()
   return (
     <div className='mt-[80px] mx-[91px]'>
       <Heading>Our Tribal Guides</Heading>
@@ -35,7 +37,9 @@ const AboutGuides = () => {
           </div>
         ))}
       </div>
-      <button className='block mt-20 bg-primary w-[168px] h-[45px] text-center rounded-md m-auto text-white'>
+      <button
+        onClick={() => push('/guides')}
+        className='block mt-20 bg-primary w-[168px] h-[45px] text-center rounded-md m-auto text-white'>
         View All
       </button>
       <div className='mb-20'></div>

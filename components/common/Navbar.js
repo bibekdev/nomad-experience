@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Navbar = () => {
-  const { pathname } = useRouter()
+  const { asPath } = useRouter()
   return (
     <div className='w-full'>
       <div className='flex items-center justify-between'>
@@ -15,9 +15,7 @@ const Navbar = () => {
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className={`${
-                    pathname === link.href ? 'font-semibold' : ''
-                  }`}>
+                  className={`${asPath === link.href ? 'font-semibold' : ''}`}>
                   {link.name}
                 </Link>
               </li>

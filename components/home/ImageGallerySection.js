@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 
 const ImageGallerySection = () => {
+  const { push } = useRouter()
   return (
     <>
       <div className='mt-10'>
@@ -120,7 +122,9 @@ const ImageGallerySection = () => {
         </div>
       </div>
 
-      <button className='block mt-10 bg-primary font-bold w-[168px] h-[48px] text-center rounded-md mx-auto text-white'>
+      <button
+        onClick={() => push('/services')}
+        className='block mt-10 bg-primary font-bold w-[168px] h-[48px] text-center rounded-md mx-auto text-white'>
         Show All Places
       </button>
     </>

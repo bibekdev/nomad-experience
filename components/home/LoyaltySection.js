@@ -17,9 +17,6 @@ const LoyaltySection = () => {
           Nomads around the world have told me, "that is a fate worse than
           death".
         </p>
-        <p className='text-center uppercase text-sm text-primary leading-[21px] h-[57px] w-full cursor-pointer'>
-          View more
-        </p>
       </div>
 
       <div className='flex justify-around mx-[91px] mt-8'>
@@ -43,9 +40,6 @@ const LoyaltySection = () => {
               these nomads are often urban and thrive in cities around the
               world, maybe even yours!
             </p>
-            <a className='text-primary text-[11px] mt-2 leading-4' href='#'>
-              View more...
-            </a>
           </div>
         </div>
         <div className='flex justify-evenly gap-x-3'>
@@ -67,9 +61,6 @@ const LoyaltySection = () => {
               herding these nomads are sometimes hard to distinguish from
               traditionally settled farmers
             </p>
-            <a className='text-primary text-[11px] mt-2 leading-4' href='#'>
-              View more...
-            </a>
           </div>
         </div>
         <div className='flex justify-evenly gap-x-3'>
@@ -92,9 +83,6 @@ const LoyaltySection = () => {
               Africa and Asia some traditional "Hunter-Gatherers" are among the
               wealthiest and most educated peoples of the world!
             </p>
-            <a className='text-primary text-[11px] mt-2 leading-4' href='#'>
-              View more...
-            </a>
           </div>
         </div>
       </div>
